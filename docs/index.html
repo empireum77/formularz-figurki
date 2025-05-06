@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formularz – Figurki</title>
+</head>
+<body>
+  <h1>Zamów figurkę dziecka</h1>
+  <form action="https://n8n.empireum.dev/webhook/formularz-rodzic" method="POST">
+    <label>Imię dziecka: <input type="text" name="imie" required /></label><br/>
+    <label>Ulubiony bohater: <input type="text" name="bohater" /></label><br/>
+    <label>Kolorystyka: <input type="text" name="kolor" /></label><br/>
+    <label>Adres e-mail rodzica: <input type="email" name="email" required /></label><br/>
+    <button type="submit">Wyślij</button>
+  </form>
+</body>
+</html>
